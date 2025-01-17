@@ -1,0 +1,9 @@
+/Users/alekseyvolkov/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/alekseyvolkov/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/alekseyvolkov/dev/esp32/foc_knob -B /Users/alekseyvolkov/dev/esp32/foc_knob/cmake-build-debug
+CMake Error at /Users/alekseyvolkov/dev/sdk/esp32/esp-idf-5.2.2/tools/cmake/targets.cmake:108 (message):
+   Target 'esp32s3' in sdkconfig '/Users/alekseyvolkov/dev/esp32/foc_knob/sdkconfig' does not match currently selected IDF_TARGET 'esp32'. To change the target, clear the build directory and sdkconfig file, and build the project again.
+Call Stack (most recent call first):
+  /Users/alekseyvolkov/dev/sdk/esp32/esp-idf-5.2.2/tools/cmake/project.cmake:24 (__target_init)
+  CMakeLists.txt:7 (include)
+
+
+-- Configuring incomplete, errors occurred!
